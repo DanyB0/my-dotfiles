@@ -1,0 +1,33 @@
+PulseOut::PulseOut() called
+SndioOut Info: ---------- sndout.ctor ----------
+AlsaOut::AlsaOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+SndioOut Info: joining thread
+[2022-11-25 12:23:20] [info] asio async_connect error: system:111 (Connection refused)
+[2022-11-25 12:23:20] [info] Error getting remote endpoint: system:107 (Transport endpoint is not connected)
+[2022-11-25 12:23:20] [error] handle_connect error: Underlying Transport Error
+couldn't open play stream: Device or resource busy
+SndioOut Info: failed to init device
+SndioOut Info: thread finished
+PulseOut: opening device 
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+[mp3 @ 0x7f8364002250] Estimating duration from bitrate, this may be inaccurate
+[mp3 @ 0x7f8360000c80] Estimating duration from bitrate, this may be inaccurate
+[mp3 @ 0x7f836400e190] Estimating duration from bitrate, this may be inaccurate
+[mp3 @ 0x7f836001e400] Estimating duration from bitrate, this may be inaccurate
+[mp3 @ 0x7f837c00fff0] Estimating duration from bitrate, this may be inaccurate
+[mp3 @ 0x7f836400e080] Estimating duration from bitrate, this may be inaccurate
+[2022-11-25 13:37:18] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
